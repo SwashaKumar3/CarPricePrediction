@@ -1,24 +1,42 @@
 # Car Price Prediction
 
-A model to predict the price of a used car should be developed in order to assess its value based on a variety of characteristics. Several factors affect the price of a used car, such as company, model, year, transmission, distance driven, fuel type, seller type, and owner type. As a result, it is crucial to know the car's actual market value before purchasing or selling it.
+This project predicts the price of a used car using a machine learning model. The prediction is based on several factors such as the company, model, year, transmission, kilometers driven, fuel type, seller type, and owner type.
 
-**Step 1 :**
+---
 
-Run the ipynb file to create the model
+## How to Use
 
-**Step 2 :**
+### Step 1: Train the Model
 
-after a pickle file named "random_forest_regression_model.pkl" genrates... Change the directory in the anaconda promt to where the pickle file is saved .
+- Run the Jupyter Notebook (`.ipynb`) file to train the model.
+- A pickle file named `random_forest_regression_model.pkl` will be created.
 
-**Step 3 :**
+### Step 2: Set the Directory
 
-Run the app.py in the anaconda prompt. open the webpage link from the prompt.
+- Open Anaconda Prompt.
+- Navigate to the directory where the `.pkl` file is saved
 
-<p align="center">
-<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/IMAGE.png?raw=true" width="525" height="200" />
-</p>
 
-**Step 4 :**
+---
+### Step 3: Run the Web App
 
-A html page opens and enter the values according to the HTML file and the price is predicted.
+Run the Flask application
+
+---
+
+### Step 4: Predict Car Price
+
+- A simple HTML form will appear.
+- Fill in the car details and click **Predict**.
+- The estimated price will be shown on the page.
+
+---
+
+### Technologies Used
+
+- **Python**
+- **Scikit-Learn**
+- **Pandas**, **NumPy**
+- **Flask**
+- **HTML**
 
