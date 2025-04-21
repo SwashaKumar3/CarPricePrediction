@@ -10,7 +10,7 @@ This project predicts the price of a used car using a machine learning model. Th
 
 - Run the Jupyter Notebook (`.ipynb`) file to train the model.
 - A pickle file named `random_forest_regression_model.pkl` will be created.
-
+---
 ### Step 2: Set the Directory
 
 - Open Anaconda Prompt.
